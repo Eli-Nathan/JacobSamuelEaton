@@ -1,0 +1,17 @@
+name: Eli
+markdown: redcarpet
+highlighter: null # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json",  "README.md", "_scripts", "_scss", "gemfile", "Gemfile.lock"]
+url: "https://jacobsamueleaton.com"
+baseurl: "/JacobSamuelEaton/"
+
+destination: docs
+
+collections:
+  works:
+    output: true
+
+  posts:
+    output:   true
+
+permalink: /blog/:title/
