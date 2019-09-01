@@ -25,6 +25,12 @@ $background_color_1: rgba(255, 255, 255, 0.3);
   padding-left: 0;
   padding-right: 0;
 
+  h2 {
+    @media (max-width:500px) {
+      font-size: 1.8rem;
+    }
+  }
+
   .overlay {
     width: 100%;
     height: 100%;
